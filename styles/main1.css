@@ -1,0 +1,65 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+.menu{
+  display: flex;
+  gap:40px;
+}
+.menu li a{
+  text-decoration: none;
+  color:black;
+  font-weight:500;
+  
+}
+
+.menu li{
+  list-style: none;
+}
+
+.top-part{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav{
+  background-color:white;
+  border: 1px solid red;
+}
+
+.logo{
+  height:60px;
+  width:139px;
+  margin:10px 20px 10px 60px;
+}
+
+
+.font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.top-button{
+  padding:10px;
+  background-color:#469165 ;
+  border:1px solid #469165;
+  border-radius: 4px;
+  color:white;
+  font-weight: 550;
+}
+
+.top{
+  padding-right:60px;
+}
+
+
+
+header{
+  background-image: url('../B13-A01-Knowledge-Vault/assets/hero-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 674px;
+}
